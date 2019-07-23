@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="16" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" source="OverWorldTileset.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="16" height="11">
+  <data encoding="csv">
+68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,
+68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,
+68,69,3,3,3,3,3,3,3,3,3,3,3,3,67,68,
+68,3,3,3,3,3,3,16,17,18,3,3,3,3,3,68,
+68,3,3,3,9,3,9,22,20,24,9,3,9,3,3,68,
+68,3,3,3,3,3,3,3,3,3,3,3,3,3,3,68,
+68,3,3,3,9,3,9,3,3,3,9,3,9,3,3,68,
+68,3,3,3,3,3,3,3,3,3,3,3,3,3,3,68,
+68,63,3,3,3,3,3,3,3,3,3,3,3,3,61,68,
+68,68,62,62,62,62,62,62,62,62,62,62,62,62,68,68,
+68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68
+</data>
+ </layer>
+ <objectgroup id="2" name="Слой объектов 1"/>
+ <objectgroup id="3" name="NotWalkable">
+  <object id="1" x="0" y="-1" width="256" height="177"/>
+ </objectgroup>
+</map>

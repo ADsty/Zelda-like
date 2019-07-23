@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="16" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="7">
+ <tileset firstgid="1" source="DungeonTileset.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="16" height="11">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="2" name="doors">
+  <object id="1" x="0" y="64" width="7" height="48"/>
+ </objectgroup>
+ <objectgroup id="3" name="NotWalkable">
+  <object id="2" x="0" y="0" width="255" height="14"/>
+  <object id="3" x="0" y="14" width="15" height="49"/>
+  <object id="4" x="239" y="80" width="16" height="96"/>
+  <object id="5" x="0" y="110" width="14" height="66"/>
+  <object id="6" x="14" y="160" width="228" height="17"/>
+ </objectgroup>
+</map>
