@@ -21,10 +21,10 @@ public class MenuState extends State {
     @Override
     public void handleInput() {
         if (Gdx.input.justTouched()) {
-            gsm.set(new PlayState(gsm, 3, 3, 100, 100, 100, false, 0, 0));
+            gsm.set(new PlayState(gsm, 3, 3, 999, 100, 100, false, 0, 0));
         }
         if (Gdx.input.isKeyPressed(Input.Keys.ENTER)) {
-            gsm.set(new PlayState(gsm, 3, 3, 100, 100, 100, false, 0, 0));
+            gsm.set(new PlayState(gsm, 3, 3, 999, 100, 100, false, 0, 0));
         }
     }
 

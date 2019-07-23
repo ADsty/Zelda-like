@@ -109,6 +109,10 @@ public abstract class Creature {
         return creature;
     }
 
+    public int getDirection() {
+        return direction;
+    }
+
     public Rectangle getCreatureRectangle() {
         return creatureRectangle;
     }

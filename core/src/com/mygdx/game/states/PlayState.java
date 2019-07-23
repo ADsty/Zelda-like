@@ -28,11 +28,6 @@ import java.util.Random;
 
 
 public class PlayState extends State {
-    //TODO Починить анимации атаки для лево и вниз
-    //TODO Подредактировать хитбоксы
-    //TODO Написать отчет
-    //TODO Отправить все на гитхаб
-
     private Controller controller;
     private Stage stage;
     private Link link;
